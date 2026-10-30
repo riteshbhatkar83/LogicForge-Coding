@@ -1,0 +1,81 @@
+import java.util.Scanner;
+
+class program118
+{
+    public static void main(String A[])
+    {
+        int iNo = 175902;
+
+        System.out.println("Number is : "+ iNo);    //175902
+
+        System.out.println(iNo % 10);               //2               //Display only
+        iNo = iNo / 10;                             //17590           //cut the number
+        System.out.println("Number is : "+ iNo);    //17590
+
+
+        System.out.println(iNo % 10);               //0
+        iNo = iNo / 10;                             //1759
+        System.out.println("Number is : "+ iNo);    //1759
+
+        System.out.println(iNo % 10);               //9
+        iNo = iNo / 10;                             //175
+        System.out.println("Number is : "+ iNo);    //175
+        
+        System.out.println(iNo % 10);               //5
+       iNo = iNo / 10;                              //17
+       System.out.println("Number is : "+ iNo);     //17
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//hex = 16 = range 0 to 15
+//decimal = base 10 = range 0 to 9
+//binary = base 2 = range 1/0
+
+//Num / base to divide number baki(0-9 madhe aasan);
+
+
+
